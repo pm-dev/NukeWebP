@@ -1,4 +1,4 @@
-// swift-tools-version: 5.4
+// swift-tools-version: 5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -24,8 +24,8 @@ let package = Package(
         
     ],
     dependencies: [
-        .package(url: "https://github.com/kean/Nuke.git", from: "11.0.0"),
-        .package(url: "https://github.com/SDWebImage/libwebp-Xcode", from: "1.2.1"),
+        .package(url: "https://github.com/kean/Nuke.git", from: "12.0.0"),
+        .package(url: "https://github.com/SDWebImage/libwebp-Xcode", from: "1.3.2"),
     ],
     targets: [
         .target(
